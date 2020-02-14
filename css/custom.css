@@ -22,7 +22,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .header { width: 100%;display: flex;flex-direction: row;justify-content: space-around;align-items: center;padding:10px 10px 15px 10px;position: absolute; top:0;right: 0;z-index: 2}
-.leftSideLogo img { width: 150px;height: 50px}
+.leftSideLogo img { width: 100px;height: 100px}
 .leftSideLogo h1 { font: 600 25px 'Poppins';color:#ededed; }
 .rightSide ul { display: flex;flex-direction: row;color: #fff}
 .rightSide ul li { margin-right: 20px; }
@@ -41,9 +41,9 @@ input[type=number]::-webkit-outer-spin-button {
 
 .rightSide ul li a:nth-last-child(1) { margin-right: 0px; }
 .container { display: flex;justify-content: center;margin-top:50px;align-items: center;flex-direction: column; }
-.headerDownImage { background-image: url("../images/headerdown.jpg");height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover; display: flex;justify-content: center;align-items: center; background-attachment: fixed;border-bottom: 1px solid #FBFEF9;}
+.headerDownImage { background-image: url("../images/headerdown.jpg");height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover; display: flex;justify-content: center;align-items: center; background-attachment: fixed;border-bottom: 1px solid #FBFEF9;margin-top: 65px}
 .headerDownImage h1 { font: 600 44px 'Poppins';color: #fff;text-align: center;position: relative;z-index: 2;line-height: 65px }
-.headerDownImage:before { content: ''; display: block;width: 100%;height: 100%;background: #0a283cb3;z-index: 1;position: absolute;top: 0px;left: 0px;}
+/*.headerDownImage:before { content: ''; display: block;width: 100%;height: 100%;background: #0a283cb3;z-index: 1;position: absolute;top: 0px;left: 0px;}*/
 .phaseContainer { width: 80%;padding:20px;display: flex;flex-wrap: wrap;justify-content: center;align-items: center; }
 .phaseContainer #about h1 { font: 600 28px/30px 'Poppins';color: #fff;text-align: center; }
 .sectionHeaderText { font: 600 28px/30px 'Poppins';color: #FBFEF9 }
